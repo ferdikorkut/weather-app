@@ -72,15 +72,18 @@ body {
 }
 
 .weather-result h2 {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   font-weight: 700;
   color: #2d3436;
   margin-bottom: 4px;
 }
 
 .weather-result img {
-  width: 160px;
-  height: 160px;
+  width: 240px;
+  height: 240px;
+  display: block;
+  margin: -20px auto;
+  filter: drop-shadow(0 0px 5px rgba(0, 0, 0, 0.2));
 }
 
 .weather-result .temp {
@@ -91,7 +94,10 @@ body {
 }
 
 .weather-result .description {
-  font-size: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
   color: #636e72;
   text-transform: capitalize;
+  letter-spacing: 0.5px;
+  margin-top: 15px;
 }
